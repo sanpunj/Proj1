@@ -1,0 +1,60 @@
+package Swift;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.Test;
+
+import com.Swift.java.Base;
+
+public class Webtables extends Base {
+
+	@Test(priority = 0)
+	public void webtableutil()
+
+	{
+		// System.setProperty(InternetExplorerDriverService.IE_DRIVER_LOGLEVEL_PROPERTY,
+		// "NULL");
+
+		/*
+		 * InternetExplorerOptions options = new InternetExplorerOptions();
+		 * DesiredCapabilities cap = new DesiredCapabilities(); String PROXY =
+		 * "proxy1.health.qld.gov.au:80"; Proxy proxy = new Proxy();
+		 * proxy.setAutodetect(false); cap.setCapability(CapabilityType.PROXY, PROXY);
+		 * options.merge(cap);
+		 */
+		System.setProperty("webdriver.ie.driver", "C:\\Drivers\\IEDriverServer.exe");
+		WebDriver driver = new InternetExplorerDriver();
+
+		driver.get("http://10.117.67.157/ElectronicReferralTriageProcess/");
+		WebElement user = driver.findElement(By.xpath("//*[@id='UserName']"));
+		user.sendKeys(new CharSequence[] { "punjs" });
+		WebElement pass = driver.findElement(By.xpath("//*[@id='Password']"));
+		pass.sendKeys(new CharSequence[] { "Mandeep123!" });
+		WebElement loginButton = driver.findElement(By.xpath("//*[@id='btnSignIn']"));
+		loginButton.click();
+		driver.findElement(By.xpath("//*[@id='navigation']/ul/li[3]/a")).click();
+
+		WebElement htmltable = driver
+				.findElement(By.xpath("/html/body/div[1]/div[3]/div[2]/div/div[2]/div/div[2]/table/tbody"));// *[@id="referralCodes"]/table
+
+		List<WebElement> rows = htmltable.findElements(By.tagName("tr"));
+		// System.out.println("No of rows are " + rows.size());
+
+		for (int rnum = 0; rnum < rows.size(); rnum++) {
+			// System.out.println("Hallo");
+			List<WebElement> columns = rows.get(rnum).findElements(By.tagName("td"));
+			// System.out.println("Number of columns:" + columns.size());
+
+			for (int cnum = 0; cnum < columns.size(); cnum++) {
+				System.out.println(columns.get(cnum).getText());
+
+				//// *[@id='referralCodes']/table/tbody
+			}
+		}
+
+	}
+}

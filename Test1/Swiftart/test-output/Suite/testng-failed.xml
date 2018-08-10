@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Swift.AppTest">
+        <methods>
+          <include name="checktabs"/>
+          <include name="Dummy1"/>
+          <include name="Dummy2"/>
+          <include name="launchSwiftIE1"/>
+          <include name="dClose"/>
+          <include name="verifyElements"/>
+          <include name="logOUT"/>
+          <include name="extentClose"/>
+          <include name="logIn"/>
+          <include name="Footerlink"/>
+          <include name="logInInvalid"/>
+        </methods>
+      </class> <!-- Swift.AppTest -->
+      <class name="Swift.Apptest2">
+        <methods>
+          <include name="Setaccess1"/>
+          <include name="launchSwift1"/>
+          <include name="logIn"/>
+          <include name="Setaccess2"/>
+          <include name="Setaccess3"/>
+          <include name="Setaccess"/>
+          <include name="dClose"/>
+        </methods>
+      </class> <!-- Swift.Apptest2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="31,191.493" tests="22" errors="0" skipped="11" failures="8">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\win7\eclipse-workspace\Swiftart\target\test-classes;C:\Users\win7\eclipse-workspace\Swiftart\target\classes;C:\Users\win7\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\win7\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\win7\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\win7\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\win7\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\win7\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\win7\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar;C:\Users\win7\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar;C:\Users\win7\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar;C:\Users\win7\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar;C:\Users\win7\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar;C:\Users\win7\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar;C:\Users\win7\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar;C:\Users\win7\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar;C:\Users\win7\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar;C:\Users\win7\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar;C:\Users\win7\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\win7\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\win7\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\win7\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\win7\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\win7\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\win7\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\win7\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\win7\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\win7\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\win7\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\win7\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\win7\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\win7\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\win7\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\win7\.m2\repository\org\apache\poi\poi\3.7\poi-3.7.jar;C:\Users\win7\.m2\repository\com\relevantcodes\extentreports\2.41.0\extentreports-2.41.0.jar;C:\Users\win7\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\win7\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\win7\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\win7\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\win7\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\win7\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\win7\.m2\repository\org\apache\directory\studio\org.apache.commons.io\2.4\org.apache.commons.io-2.4.jar;C:\Users\win7\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\win7\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\Users\win7\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\win7\AppData\Local\Temp\surefire2573983657940356432\surefirebooter7164968062572055736.jar C:\Users\win7\AppData\Local\Temp\surefire2573983657940356432 2018-07-19T10-33-54_592-jvmRun1 surefire7112960067659651944tmp surefire_06514289844799213293tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\win7\eclipse-workspace\Swiftart\target\test-classes;C:\Users\win7\eclipse-workspace\Swiftart\target\classes;C:\Users\win7\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\win7\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\win7\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\win7\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\win7\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\win7\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\win7\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar;C:\Users\win7\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar;C:\Users\win7\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar;C:\Users\win7\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar;C:\Users\win7\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar;C:\Users\win7\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar;C:\Users\win7\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar;C:\Users\win7\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar;C:\Users\win7\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar;C:\Users\win7\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar;C:\Users\win7\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\win7\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\win7\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\win7\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\win7\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\win7\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\win7\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\win7\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\win7\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\win7\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\win7\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\win7\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\win7\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\win7\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\win7\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\win7\.m2\repository\org\apache\poi\poi\3.7\poi-3.7.jar;C:\Users\win7\.m2\repository\com\relevantcodes\extentreports\2.41.0\extentreports-2.41.0.jar;C:\Users\win7\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\win7\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\win7\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\win7\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\win7\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\win7\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\win7\.m2\repository\org\apache\directory\studio\org.apache.commons.io\2.4\org.apache.commons.io-2.4.jar;C:\Users\win7\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\win7\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\Users\win7\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\win7"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_171\jre"/>
+    <property name="basedir" value="C:\Users\win7\eclipse-workspace\Swiftart"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\win7\AppData\Local\Temp\surefire2573983657940356432\surefirebooter7164968062572055736.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="user.name" value="win7"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\win7\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\win7\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="user.dir" value="C:\Users\win7\eclipse-workspace\Swiftart"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Maven\bin;C:\ANT\apache-ant-1.9.12\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="launchSwiftIE1" classname="Swift.AppTest" time="7.094"/>
+  <testcase name="launchSwiftIE1" classname="Swift.AppTest" time="0.016">
+    <failure message="Unable to get browser&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;QH11284374&apos;, ip: &apos;10.56.179.44&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.ie.InternetExplorerDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:9630/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: 49b1594b-8350-4f6e-8991-98740ea210c9" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+Unable to get browser
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'QH11284374', ip: '10.56.179.44', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:9630/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 49b1594b-8350-4f6e-8991-98740ea210c9
+	at Swift.AppTest.launchSwiftIE1(AppTest.java:30)
+</failure>
+    <system-out><![CDATA[AppURL
+http://10.117.67.157/ElectronicReferralTriageProcess/
+]]></system-out>
+  </testcase>
+  <testcase name="Dummy1" classname="Swift.AppTest" time="0">
+    <skipped message="Skipping Demo"/>
+  </testcase>
+  <testcase name="Dummy1" classname="Swift.AppTest" time="0">
+    <skipped message="Skipping Demo"/>
+  </testcase>
+  <testcase name="Dummy2" classname="Swift.AppTest" time="0.037">
+    <failure message="Demo Failure message" type="java.lang.AssertionError">java.lang.AssertionError: Demo Failure message
+	at Swift.AppTest.Dummy2(AppTest.java:147)
+</failure>
+  </testcase>
+  <testcase name="Dummy2" classname="Swift.AppTest" time="0">
+    <failure message="Demo Failure message" type="java.lang.AssertionError">java.lang.AssertionError: Demo Failure message
+	at Swift.AppTest.Dummy2(AppTest.java:147)
+</failure>
+  </testcase>
+  <testcase name="launchSwiftIE1" classname="Swift.Apptest3" time="100.172">
+    <failure message="Unable to find element with xpath == //*[@id=&apos;UserName&apos;]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;QH11284374&apos;, ip: &apos;10.56.179.44&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.ie.InternetExplorerDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:9630/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: 49b1594b-8350-4f6e-8991-98740ea210c9" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == //*[@id='UserName']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'QH11284374', ip: '10.56.179.44', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:9630/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 49b1594b-8350-4f6e-8991-98740ea210c9
+	at Swift.Apptest3.launchSwiftIE1(Apptest3.java:23)
+</failure>
+    <system-out><![CDATA[username_xpath
+//*[@id='UserName']
+]]></system-out>
+  </testcase>
+  <testcase name="verifyElements" classname="Swift.AppTest" time="0.013">
+    <failure message="Currently focused window has been closed.&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;QH11284374&apos;, ip: &apos;10.56.179.44&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.ie.InternetExplorerDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:9630/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: 49b1594b-8350-4f6e-8991-98740ea210c9&#10;*** Element info: {Using=xpath, value=//*[@id=&apos;UserName&apos;]}" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+Currently focused window has been closed.
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'QH11284374', ip: '10.56.179.44', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:9630/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 49b1594b-8350-4f6e-8991-98740ea210c9
+*** Element info: {Using=xpath, value=//*[@id='UserName']}
+	at Swift.AppTest.verifyElements(AppTest.java:42)
+</failure>
+  </testcase>
+  <testcase name="verifyElements" classname="Swift.AppTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logInInvalid" classname="Swift.AppTest" time="0.027">
+    <failure message="Currently focused window has been closed.&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;QH11284374&apos;, ip: &apos;10.56.179.44&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.ie.InternetExplorerDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:9630/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: 49b1594b-8350-4f6e-8991-98740ea210c9&#10;*** Element info: {Using=xpath, value=//*[@id=&apos;UserName&apos;]}" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+Currently focused window has been closed.
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'QH11284374', ip: '10.56.179.44', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:9630/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 49b1594b-8350-4f6e-8991-98740ea210c9
+*** Element info: {Using=xpath, value=//*[@id='UserName']}
+	at Swift.AppTest.logInInvalid(AppTest.java:68)
+</failure>
+    <system-out><![CDATA[username_xpath
+//*[@id='UserName']
+]]></system-out>
+  </testcase>
+  <testcase name="logInInvalid" classname="Swift.AppTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="Swift.Apptest3" time="0.016">
+    <failure message="java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;QH11284374&apos;, ip: &apos;10.56.179.44&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.json.JsonException">org.openqa.selenium.json.JsonException: 
+java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'QH11284374', ip: '10.56.179.44', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: driver.version: RemoteWebDriver
+	at Swift.Apptest3.login(Apptest3.java:44)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at Swift.Apptest3.login(Apptest3.java:44)
+</failure>
+  </testcase>
+  <testcase name="logIn" classname="Swift.AppTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logIn" classname="Swift.AppTest" time="31,049.973">
+    <failure message="java.net.SocketTimeoutException: Read timed out&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;QH11284374&apos;, ip: &apos;10.56.179.44&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'QH11284374', ip: '10.56.179.44', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: driver.version: RemoteWebDriver
+	at Swift.AppTest.logIn(AppTest.java:90)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at Swift.AppTest.logIn(AppTest.java:90)
+</failure>
+  </testcase>
+  <testcase name="checktabs" classname="Swift.AppTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checktabs" classname="Swift.AppTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Footerlink" classname="Swift.AppTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Footerlink" classname="Swift.AppTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logOUT" classname="Swift.AppTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logOUT" classname="Swift.AppTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login1" classname="Swift.Apptest3" time="24.368"/>
+  <testcase name="login2" classname="Swift.Apptest3" time="21.413"/>
+</testsuite>

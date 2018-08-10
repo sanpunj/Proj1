@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28974" started-at="2018-08-08T02:34:06Z" finished-at="2018-08-08T02:34:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28974" started-at="2018-08-08T02:34:06Z" finished-at="2018-08-08T02:34:35Z">
+      <class name="Swift.Sanity">
+        <test-method status="PASS" signature="launchSwiftIE1()[pri:0, instance:Swift.Sanity@53f65459]" name="launchSwiftIE1" duration-ms="5057" started-at="2018-08-08T12:34:06Z" description="Launching the IE Browsers and performing the settings on Browser" finished-at="2018-08-08T12:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSwiftIE1 -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:Swift.Sanity@53f65459]" name="Close" is-config="true" duration-ms="248" started-at="2018-08-08T12:34:11Z" finished-at="2018-08-08T12:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method status="FAIL" signature="verifyElements()[pri:0, instance:Swift.Sanity@53f65459]" name="verifyElements" duration-ms="1103" started-at="2018-08-08T12:34:11Z" description="Verify the elements on the Login Page" depends-on-methods="Swift.Sanity.launchSwiftIE1" finished-at="2018-08-08T12:34:12Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+null
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:37)
+	at Swift.Sanity.verifyElements(Sanity.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElements -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:Swift.Sanity@53f65459]" name="Close" is-config="true" duration-ms="44" started-at="2018-08-08T12:34:12Z" finished-at="2018-08-08T12:34:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:Swift.Sanity@53f65459]" name="logIn" duration-ms="22468" started-at="2018-08-08T12:34:13Z" description="Login should be successful " depends-on-methods="Swift.Sanity.launchSwiftIE1" finished-at="2018-08-08T12:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:Swift.Sanity@53f65459]" name="Close" is-config="true" duration-ms="33" started-at="2018-08-08T12:34:35Z" finished-at="2018-08-08T12:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method status="PASS" signature="end()[pri:0, instance:Swift.Sanity@53f65459]" name="end" is-config="true" duration-ms="0" started-at="2018-08-08T12:34:35Z" finished-at="2018-08-08T12:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- Swift.Sanity -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

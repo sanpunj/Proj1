@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Sanitytest]" parallel="tests">
+  <test name="Apptest(failed)" parallel="tests">
+    <classes>
+      <class name="Swift.Apptest3">
+        <methods>
+          <include name="extentClose"/>
+          <include name="CollectSoftassert"/>
+          <include name="quitall"/>
+          <include name="StartnewSoftAssert"/>
+        </methods>
+      </class> <!-- Swift.Apptest3 -->
+      <class name="Swift.AppTest">
+        <methods>
+          <include name="Dummy1"/>
+          <include name="Dummy2"/>
+          <include name="extentClose"/>
+          <include name="extentClose"/>
+          <include name="logIn"/>
+          <include name="checktabs"/>
+          <include name="launchSwiftIE1"/>
+          <include name="dClose"/>
+          <include name="dClose"/>
+          <include name="verifyElements"/>
+          <include name="logOUT"/>
+          <include name="Footerlink"/>
+          <include name="logInInvalid"/>
+        </methods>
+      </class> <!-- Swift.AppTest -->
+    </classes>
+  </test> <!-- Apptest(failed) -->
+  <test name="Apptest3(failed)" parallel="tests">
+    <classes>
+      <class name="Swift.Apptest3">
+        <methods>
+          <include name="login"/>
+          <include name="extentClose"/>
+          <include name="CollectSoftassert"/>
+          <include name="quitall"/>
+          <include name="StartnewSoftAssert"/>
+          <include name="launchSwiftIE1"/>
+        </methods>
+      </class> <!-- Swift.Apptest3 -->
+      <class name="Swift.AppTest">
+        <methods>
+          <include name="dClose"/>
+          <include name="dClose"/>
+          <include name="extentClose"/>
+          <include name="extentClose"/>
+        </methods>
+      </class> <!-- Swift.AppTest -->
+    </classes>
+  </test> <!-- Apptest3(failed) -->
+  <test name="Apptest2(failed)" parallel="tests">
+    <classes>
+      <class name="Swift.Apptest3">
+        <methods>
+          <include name="extentClose"/>
+          <include name="CollectSoftassert"/>
+          <include name="quitall"/>
+          <include name="StartnewSoftAssert"/>
+        </methods>
+      </class> <!-- Swift.Apptest3 -->
+      <class name="Swift.AppTest">
+        <methods>
+          <include name="Dummy1"/>
+          <include name="Dummy2"/>
+          <include name="extentClose"/>
+          <include name="extentClose"/>
+          <include name="logIn"/>
+          <include name="checktabs"/>
+          <include name="launchSwiftIE1"/>
+          <include name="dClose"/>
+          <include name="dClose"/>
+          <include name="verifyElements"/>
+          <include name="logOUT"/>
+          <include name="Footerlink"/>
+          <include name="logInInvalid"/>
+        </methods>
+      </class> <!-- Swift.AppTest -->
+    </classes>
+  </test> <!-- Apptest2(failed) -->
+</suite> <!-- Failed suite [Sanitytest] -->

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sanitytest]" parallel="tests">
+  <test name="Apptest(failed)" parallel="tests">
+    <classes>
+      <class name="Swift.AppTest">
+        <methods>
+          <include name="checktabs"/>
+          <include name="Dummy1"/>
+          <include name="Dummy2"/>
+          <include name="launchSwiftIE1"/>
+          <include name="dClose"/>
+          <include name="verifyElements"/>
+          <include name="logOUT"/>
+          <include name="extentClose"/>
+          <include name="logIn"/>
+          <include name="Footerlink"/>
+          <include name="logInInvalid"/>
+        </methods>
+      </class> <!-- Swift.AppTest -->
+      <class name="Swift.Apptest3">
+        <methods>
+          <include name="extentClose"/>
+          <include name="CollectSoftassert"/>
+          <include name="quitall"/>
+          <include name="StartnewSoftAssert"/>
+        </methods>
+      </class> <!-- Swift.Apptest3 -->
+    </classes>
+  </test> <!-- Apptest(failed) -->
+  <test name="Apptest3(failed)" parallel="tests">
+    <classes>
+      <class name="Swift.AppTest">
+        <methods>
+          <include name="dClose"/>
+          <include name="extentClose"/>
+        </methods>
+      </class> <!-- Swift.AppTest -->
+      <class name="Swift.Apptest3">
+        <methods>
+          <include name="login"/>
+          <include name="extentClose"/>
+          <include name="login2"/>
+          <include name="login1"/>
+          <include name="CollectSoftassert"/>
+          <include name="quitall"/>
+          <include name="StartnewSoftAssert"/>
+        </methods>
+      </class> <!-- Swift.Apptest3 -->
+    </classes>
+  </test> <!-- Apptest3(failed) -->
+</suite> <!-- Failed suite [Sanitytest] -->

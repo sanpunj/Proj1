@@ -1,0 +1,75 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 8, Errors: 0, Skipped: 11, Time elapsed: 31,191.493 s <<< FAILURE! - in TestSuite
+Dummy2(Swift.AppTest)  Time elapsed: 0.037 s  <<< FAILURE!
+java.lang.AssertionError: Demo Failure message
+	at Swift.AppTest.Dummy2(AppTest.java:147)
+
+launchSwiftIE1(Swift.Apptest3)  Time elapsed: 100.172 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == //*[@id='UserName']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'QH11284374', ip: '10.56.179.44', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:9630/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 49b1594b-8350-4f6e-8991-98740ea210c9
+	at Swift.Apptest3.launchSwiftIE1(Apptest3.java:23)
+
+verifyElements(Swift.AppTest)  Time elapsed: 0.013 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+Currently focused window has been closed.
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'QH11284374', ip: '10.56.179.44', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:9630/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 49b1594b-8350-4f6e-8991-98740ea210c9
+*** Element info: {Using=xpath, value=//*[@id='UserName']}
+	at Swift.AppTest.verifyElements(AppTest.java:42)
+
+logInInvalid(Swift.AppTest)  Time elapsed: 0.027 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+Currently focused window has been closed.
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'QH11284374', ip: '10.56.179.44', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:9630/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 49b1594b-8350-4f6e-8991-98740ea210c9
+*** Element info: {Using=xpath, value=//*[@id='UserName']}
+	at Swift.AppTest.logInInvalid(AppTest.java:68)
+
+launchSwiftIE1(Swift.AppTest)  Time elapsed: 0.016 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+Unable to get browser
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'QH11284374', ip: '10.56.179.44', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:9630/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 49b1594b-8350-4f6e-8991-98740ea210c9
+	at Swift.AppTest.launchSwiftIE1(AppTest.java:30)
+
+login(Swift.Apptest3)  Time elapsed: 0.016 s  <<< FAILURE!
+org.openqa.selenium.json.JsonException: 
+java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'QH11284374', ip: '10.56.179.44', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: driver.version: RemoteWebDriver
+	at Swift.Apptest3.login(Apptest3.java:44)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at Swift.Apptest3.login(Apptest3.java:44)
+
+Dummy2(Swift.AppTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Demo Failure message
+	at Swift.AppTest.Dummy2(AppTest.java:147)
+
+logIn(Swift.AppTest)  Time elapsed: 31,049.973 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'QH11284374', ip: '10.56.179.44', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: driver.version: RemoteWebDriver
+	at Swift.AppTest.logIn(AppTest.java:90)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at Swift.AppTest.logIn(AppTest.java:90)
+
